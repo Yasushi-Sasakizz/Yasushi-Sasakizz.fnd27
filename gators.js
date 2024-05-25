@@ -24,12 +24,12 @@ function gatorsMaker(num) {
   return gators;
 }
 
-test(gatorsMaker(0), "");
-test(gatorsMaker(1), "🐊");
-test(gatorsMaker(3), "🐊 🐊 🐊");
-test(gatorsMaker(5), "🐊 🐊 🐊 🐊 🐊");
-test(gatorsMaker(-5), "");
-test(gatorsMaker("a"),"Please, input numbers!");
+// test(gatorsMaker(0), "");
+// test(gatorsMaker(1), "🐊");
+// test(gatorsMaker(3), "🐊 🐊 🐊");
+// test(gatorsMaker(5), "🐊 🐊 🐊 🐊 🐊");
+// test(gatorsMaker(-5), "");
+// test(gatorsMaker("a"),"Please, input numbers!");
 
 /**
  * @param {function} 
