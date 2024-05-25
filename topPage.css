@@ -1,0 +1,103 @@
+body{
+    background-color: rgba(140, 175, 80, 0.39);
+}
+
+#header{
+    font-size: 200%;
+    background-color: rgb(140, 175, 80);
+}
+
+.main{
+    display: flex;
+}
+
+.main .presenter{
+    border: 2px solid black;
+    width: 260px;
+    height: 480px;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.main .intro{
+    height: 480px;
+    margin: 0 0 0 20px;
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.main .intro a{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.char{
+    margin-left: 25px;
+}
+
+.char1{
+    margin-left: 80px;
+}
+
+.char2{
+    margin-left: 110px;
+}
+
+#etc{
+    font-size: 10px;
+    font-weight: normal;
+}
+
+#DIG{
+    padding: 5px 10px;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin-left: 100px;
+    background-color: aliceblue;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contents{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#thoughts{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#max{
+    font-size: 28px;
+    font-weight: bolder;
+    color: red;
+}
+
+#next{
+    margin-left: 100px;
+    display: flex;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button{
+    margin: 10px 50px;
+    width: 200px;
+    height: 40px;
+}
